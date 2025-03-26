@@ -40,5 +40,16 @@
 
         </div>
     </div>
+<script src= "https://maps.googleapis.com/maps/api/js">
+    function G_Map(){
+        var mapProp = {
+            center:new google.maps.LatLng(40.742835, -73.882198),
+            zoom:7,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', G_Map);
+</script>
 </body>
 </html>
