@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color:#fa4d9e;
+    font-family: Arial, Helvetica, "sans-serif";
+    font-size: 18px;
+
+}
+
+#header
+{
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    background-color: #ef9fbc;
+    padding: 5px;
+    margin: 0px;
+    line-height: 0.8;
+    border: white solid 1px;
+}
+
+#photohead
+{
+    float:right;
+}
+
+#about
+{
+    background-color: pink;
+    padding: 10px;
+    margin: 0px;
+    border: white solid 1px;
+}
+
+#column
+{
+    float: left;
+    width: 50%;
+    text-align: left;
+    background-color: pink;
+    list-style-type: none;
+}
+#column1
+{
+    width:30%;
+    float: left;
+    list-style-type:none;
+}
+#column2
+{
+    width:70%;
+    float: left;
+    list-style-type:none;
+
+}
+#menu
+{
+    text-align: left;
+    background-color: #fab7dc;
+    color: black;
+    padding:3px;
+    line-height: 0.5;
+    border: white solid 1px;
+
+}
+
+#links
+{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display: inline;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    background-color: #fab7dc;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+}
+
+#reviews
+{
+    background-color: #fcd4eb;
+    padding: 10px;
+    border: white solid 1px;
+}
+
+#news1
+{
+    margin: 10px;
+    display: inline;
+}
+
+
+#columnA {
+    float: left;
+    width: 33.333333%;
+    text-align: left;
+    background-color: pink;
+    list-style-type: none;
+}
+
+#column3
+{
+    width:40%;
+    float: left;
+    list-style-type:none;
+}
+
+#column4 {
+    width: 60%;
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li a.active
+{
+    background-color: white;
+}
+
+#page{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: pink;
+}

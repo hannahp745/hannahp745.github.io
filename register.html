@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  <style>
+
+  </style>
+</head>
+<body>
+<div id="header">
+  <h1>Register for updates</h1></div>
+<div id="menu">
+  <div id="links">
+    <ol>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="percy.html">Percy Pig</a></li>
+      <li><a href="misspiggy.html">Miss Piggy</a></li>
+      <li><a href="peppa.html">Peppa Pig </a></li>
+      <li><a href="quiz.html">Quiz </a></li>
+      <li><a class="active" href="register.html">Register </a></li>
+
+    </ol></div>
+</div>
+
+<form name="register">
+  Firstname: <input type="text" name="firstname" required>
+  Lastname: <input type="text" name="lastname" required>
+  Email: <input type="text" name="email" pattern="[0-9]-+[a-z]{6}.[a-z]+@[a-z]{4}+\.[a-z]{4}" required>
+  <button type="submit" onclick="validate1()">Register</button>
+</form>
+
+<script>
+
+</script>
+</body>
+</html>
