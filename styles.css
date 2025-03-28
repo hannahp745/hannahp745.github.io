@@ -148,3 +148,8 @@ li a.active
     padding: 30px;
     background-color: pink;
 }
+
+#maps{
+    float: right;
+    background-color: pink;
+}
